@@ -7,6 +7,7 @@ public class TwoDimensionalArray{
     public int length;
 
     TwoDimensionalArray(int [][] array_p){
+        // This is the main constructor, takes a two dimensional array, and construct the object
         int lengthInside = 0;
         array = new int[array_p.length][array_p[0].length];
         for(int i = 0;i<array_p.length;i++){
